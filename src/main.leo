@@ -49,4 +49,8 @@ program token_25644.aleo {
         let prev: u64 = Mapping::get(balance, caller);
         Mapping::set(balance, caller , prev - amount);
     }
+
+    // transition join (input: Token, input2: Token) -> Token {
+        
+    // };
 }
